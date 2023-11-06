@@ -1,10 +1,14 @@
 <script>
 import PageHeader from './components/PageHeader.vue'
+import MainContent from './components/MainContent.vue'
+import PageFooter from './components/PageFooter.vue'
 
 export default {
   name: 'App',
   components: {
-    PageHeader
+    PageHeader,
+    MainContent,
+    PageFooter
   },
   data() {
     return {
@@ -16,6 +20,8 @@ export default {
 
 <template>
   <PageHeader />
+  <MainContent />
+  <PageFooter />
 </template>
 
 <style>
@@ -28,5 +34,14 @@ export default {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+ul,
+li,
+menu,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
 }
 </style>

@@ -44,15 +44,6 @@ export default {
 </template>
 
 <style scoped>
-ul,
-li,
-menu,
-a {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-}
-
 .page-header {
     background-color: orange;
     padding: 20px;
