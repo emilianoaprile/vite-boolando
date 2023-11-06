@@ -49,4 +49,10 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+
+.col-4 {
+  flex-basis: calc((100% /12) * 4);
+  border: 1px solid black;
+  height: 100px;
+}
 </style>
