@@ -44,4 +44,9 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 </style>

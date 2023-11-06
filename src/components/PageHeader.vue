@@ -31,9 +31,9 @@ export default {
                     </div>
 
                     <ul class="navbar-icons">
-                        <li class="navbar-icon-items"><a href="#">Utente</a></li>
-                        <li class="navbar-icon-items"><a href="#">Preferiti</a></li>
-                        <li class="navbar-icon-items"><a href="#">Carrello</a></li>
+                        <li class="navbar-icon-items"><a href="#">icon</a></li>
+                        <li class="navbar-icon-items"><a href="#">icon</a></li>
+                        <li class="navbar-icon-items"><a href="#">icon</a></li>
                     </ul>
 
                 </nav>
@@ -45,7 +45,7 @@ export default {
 
 <style scoped>
 .page-header {
-    background-color: orange;
+    background-color: #fd6801;
     padding: 20px;
 }
 
