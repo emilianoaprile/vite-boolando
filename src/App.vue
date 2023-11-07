@@ -2,6 +2,7 @@
 import PageHeader from './components/PageHeader.vue'
 import MainContent from './components/MainContent.vue'
 import PageFooter from './components/PageFooter.vue'
+import Card from './components/Card.vue'
 
 
 export default {
@@ -9,7 +10,8 @@ export default {
   components: {
     PageHeader,
     MainContent,
-    PageFooter
+    PageFooter,
+    Card
   },
   data() {
     return {
