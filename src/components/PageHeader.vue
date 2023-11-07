@@ -3,7 +3,7 @@ export default {
     name: 'PageHeader',
     data() {
         return {
-
+            logo: '/img/boolean-logo.png',
         }
     },
     methods: {
@@ -26,7 +26,7 @@ export default {
 
                     <div class="header-logo">
 
-                        LOGO
+                        <img class="logo" :src="logo" alt="">
 
                     </div>
 
@@ -39,7 +39,6 @@ export default {
                 </nav>
             </div>
         </header>
-
     </div>
 </template>
 
@@ -64,5 +63,9 @@ export default {
 .navbar-menu-items,
 .navbar-icon-items {
     padding: 5px 10px;
+}
+
+.logo {
+    width: 100px;
 }
 </style>

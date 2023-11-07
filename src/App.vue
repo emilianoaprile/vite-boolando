@@ -3,6 +3,7 @@ import PageHeader from './components/PageHeader.vue'
 import MainContent from './components/MainContent.vue'
 import PageFooter from './components/PageFooter.vue'
 
+
 export default {
   name: 'App',
   components: {
@@ -12,7 +13,7 @@ export default {
   },
   data() {
     return {
-      images: []
+
     }
   }
 }
@@ -50,9 +51,8 @@ a {
   flex-wrap: wrap;
 }
 
-.col-4 {
+.card {
   flex-basis: calc((100% /12) * 4);
-  border: 1px solid black;
-  height: 100px;
+  padding: 5px;
 }
 </style>
